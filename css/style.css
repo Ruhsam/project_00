@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+#finish {
+    float: right;
+    height: 330px;
+}
+#racetrack {
+    background: url('street.png') center left repeat-x;
+    position: relative;
+    height: 330px;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+.car {
+    display: block;
+    position: relative;
+}
+#car1 {
+position: absolute;
+top: 10px;
+left: 1px;
+}
+#car2 { 
+position: absolute;
+top: 180px;
+left:1px;
+}
+   border-radius: 100%;
